@@ -57,4 +57,12 @@ public class Match {
     public void setVisitantGoalCounter(int visitantGoalCounter) {
         this.visitantGoalCounter = visitantGoalCounter;
     }
+    public int getWinner (){
+       if (getLocalGoalCounter() > getVisitantGoalCounter()){
+           return getLocalGoalCounter();
+       } else {
+           return getVisitantGoalCounter();
+
+       }
+    }
 }
