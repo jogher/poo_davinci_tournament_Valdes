@@ -72,11 +72,12 @@ public class Match {
        }
     }
 
-    public void getMatchStatus(){
-        System.out.println(
-            getLocalTeam().getName() +" "+getLocalGoalCounter()+
-            " - "
-            +getVisitantGoalCounter()+" "+getVisitantTeam().getName());
+    public String getMatchStatus(){
+        return this.getLocalTeam().getName() +" "+this.getLocalGoalCounter()+
+                " - "
+                +this.getVisitantGoalCounter()+" "+this.getVisitantTeam().getName();
+
+    }
         
     }
   
