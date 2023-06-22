@@ -32,7 +32,7 @@
 
     - ArrayList<Equipo> getEquiposQueAvanzan()
 
-[ ] Crear la clase Grupo que hereda de Season. Tiene que definido:
+[-] Crear la clase Grupo que hereda de Season. Tiene que definido:
 
     - ArrayList<Equipo> getEquiposQueAvanzan()
 
