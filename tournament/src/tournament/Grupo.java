@@ -1,6 +1,8 @@
 package tournament;
 
 public class Grupo extends Season {
-    public void getEquiposQueAvanzan();
+    public arrayList<Team> getEquiposQueAvanzan(){
+        return teams;
+    };
 
 }
