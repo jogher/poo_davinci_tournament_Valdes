@@ -1,6 +1,6 @@
 package tournament;
 
-public abstract class Grupo extends Season {
-    public abstract void getEquiposQueAvanzan();
+public class Grupo extends Season {
+    public void getEquiposQueAvanzan();
 
 }
