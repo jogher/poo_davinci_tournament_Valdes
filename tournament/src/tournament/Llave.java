@@ -1,6 +1,6 @@
 package tournament;
 
-public abstract class Llave extends Season {
-        public abstract void setEquiposQueAvanzan();
+public class Llave extends Season {
+        public void getEquiposQueAvanzan();
 
 }
