@@ -29,7 +29,7 @@ public class Main {
         teamA.addPlayer(isaac);
 
         Team teamF = new Team("Equipo F");
-        String [] playersF = {"messi", "diMaria", "isabel", "isaac", "teacher", "tudent1"};
+        String [] playersF = {"Laura", "Diego", "Valentina", "Alejandro", "Gabriela"};
         for (String player: playersF){
             teamF.addPlayer (new Player(player));
         };
