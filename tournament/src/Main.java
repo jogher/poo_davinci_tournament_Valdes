@@ -27,12 +27,12 @@ public class Main {
         teamA.addPlayer(diMaria);
         teamA.addPlayer(isabel);
         teamA.addPlayer(isaac);
-        
-        Team teamB = new Team("Equipo B");
-        teamB.addPlayer(new Player("Tomas"));
-        teamB.addPlayer(new Player("Jogher"));
-        teamB.addPlayer(new Player("Paco"));
-        teamB.addPlayer(new Player("Franco"));
+
+        Team teamF = new Team("Equipo F");
+        String [] playersF = {"messi", "diMaria", "isabel", "isaac", "teacher", "tudent1"};
+        for (String player: playersF){
+            teamF.addPlayer (new Player(player));
+        };
         
         //showMembers
        teamA.showMembers();
