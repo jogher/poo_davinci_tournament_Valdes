@@ -21,9 +21,11 @@ public class Main {
         //playersA.add(teacher);
         //playersA.add(student1);
 
-        //Team teamA = new Team("Equipo A", playersA);
-        String[] teamA = {messi, diMaria, isabel, isaac, teacher, student1};
-        for (string TeamA: teamA);
+        Team teamE = new Team("Equipo A");
+        String [] playersA = {"messi", "diMaria", "isabel", "isaac", "teacher", "tudent1"};
+        for (String player: playersA){
+            teamA.addPlayer (new Player(player));
+        };
         
         Team teamB = new Team("Equipo B");
         teamB.addPlayer(new Player("Tomas"));
