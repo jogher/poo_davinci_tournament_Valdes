@@ -1,7 +1,7 @@
 package tournament;
 
 public class Llave extends Season {
-        public arrayList<Team> getEquiposQueAvanzan(){
+        public ArrayList<Team> getEquiposQueAvanzan(){
                 return teams;
 
         }
