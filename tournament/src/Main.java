@@ -20,23 +20,39 @@ public class Main {
         //ArrayList<Player> playersA = new ArrayList<>();
         //playersA.add(teacher);
         //playersA.add(student1);
+        String[] teamlistA = {"Messi", "DiMaria", "Isabel", "Isaac"};
+        Team teamA = new Team("Equipo A");
+        for (String name : teamlistA) {
+            teamA.addPlayer(new Player(name));
+        }
 
+        String[] teamlistB = {"Tomas", "Jogher", "Paco", "Franco"};
+        Team teamB = new Team("Equipo B");
+        for (String name : teamlistB) {
+            teamA.addPlayer(new Player(name));
+        }
+
+        String [] teamCList =  {"Almada", "Dybala", "DePaul", "MacAllister"};
+        Team teamC = new Team("Equipo C");
+        for (String name : teamCList){
+            teamC.addPlayer(new Player(name));
+        }
+
+        String [] teamDList =  {"Pepe", "Lucio", "Mario", "Luigi"};
+        Team teamD = new Team("Equipo D");
+        for (String name : teamDList){
+            teamD.addPlayer(new Player(name));
+        }
+      
         Team teamE = new Team("Equipo E");
         String [] playersE = {"Ana", "Carlos", "Sofia", "Javier", "Javier","Mariana"};
         for (String player: playersE){
             teamE.addPlayer (new Player(player));
         };
         
-        Team teamB = new Team("Equipo B");
-        teamB.addPlayer(new Player("Tomas"));
-        teamB.addPlayer(new Player("Jogher"));
-        teamB.addPlayer(new Player("Paco"));
-        teamB.addPlayer(new Player("Franco"));
-        
-        //showMembers
        teamA.showMembers();
       
-        teamB.showMembers();
+       teamB.showMembers();
   
       //System.out.println(tomas.showTeam());
 
