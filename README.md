@@ -26,7 +26,7 @@
 
 [-] Agregar jugadores a teamA usando iteración
 
-[ ] Agregar jugadores a teamB usando iteración
+[-] Agregar jugadores a teamB usando iteración
 
 [-] Agregar jugares a teamC y teamD
 
@@ -61,14 +61,14 @@
 
 [-] modificar getWinner()
 
-[ ] En la clase Team, agregar el constructor que soporte String[] players y que itere agregando players
+[-] En la clase Team, agregar el constructor que soporte String[] players y que itere agregando players
 
 [-] Migrar en Main las implementaciones de la creación de teams, usando el constructor (String, String[])
 
 [-] Eliminar objetos de Player en Main
 
-[ ] Agregar partidos entre teamC y teamD, teamE y teamF
+[-] Agregar partidos entre teamC y teamD, teamE y teamF
 
-[ ] Agregar jugadorres a teamG y teamH, y el partido
+[-] Agregar jugadorres a teamG y teamH, y el partido
 
 
