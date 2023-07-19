@@ -8,15 +8,15 @@
 
 
 ## Main class
-[ ] Crear la llave cuartoFinal :: Llave
+[-] Crear la llave cuartoFinal :: Llave
 
-[ ] Agregar los partidos a la llave cuartoFinal
+[-] Agregar los partidos a la llave cuartoFinal
 
-[ ] Pedir los equipos que avanzan a semis e imprimir equipos -> equiposSemi :: ArrayList<Team>
+[-] Pedir los equipos que avanzan a semis e imprimir equipos -> equiposSemi :: ArrayList<Team>
 
-[ ] Crear equiposCuarto :: ArrayList<Team>, y agregarle los equipos (con add, en orden)
+[-] Crear equiposCuarto :: ArrayList<Team>, y agregarle los equipos (con add, en orden)
 
-[ ] Reemplazar equipos en constructor de cada partido, usando get(id)
+[-] Reemplazar equipos en constructor de cada partido, usando get(id)
 
 ![class_diagram.png](class_diagram.png)
 

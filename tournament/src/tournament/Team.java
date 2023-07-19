@@ -56,6 +56,7 @@ public class Team {
     
     public Team(String name, String[] playerNames) {
         setName(name);
+        setPlayers(new ArrayList<>());
         for (String playerName : playerNames) {
             addPlayer(new Player(playerName));
         }

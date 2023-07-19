@@ -52,16 +52,17 @@ public class Match {
     public Match(Team localTeam, Team visitantTeam) {
         setLocalTeam(localTeam);
         setVisitantTeam(visitantTeam);
+        this.result = new MatchResult();
     }
 
 //getWinner and getMatchStatus must be modified
 
 
     public String getMatchStatus() {
-        //return this.getLocalTeam().getName() +" "+this.getLocalGoalCounter()+
-        //" - "
-        // +this.getVisitantGoalCounter()+" "+this.getVisitantTeam().getName();
-        return "Placeholder";
+        return this.getLocalTeam().getName() +" "+this.getMatchResult().getLocalGoalCounter()+
+        " - "
+         +this.getMatchResult().getVisitantGoalCounter()+" "+this.getVisitantTeam().getName();
+        //return "Placeholder";
     }
 
     public void makeVisitantGoal(int playerPosition) {
